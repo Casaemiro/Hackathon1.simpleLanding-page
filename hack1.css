@@ -1,0 +1,182 @@
+#nav {
+    /* color: red; */
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    /* background-color: green; */
+    justify-content: space-between;
+    align-items: center;
+    height: 6rem;
+    font-weight: bold;
+}
+body {
+    margin: 0;
+}
+#account {
+    margin-right: 2%;
+    font-size: 1.1em;
+    /* color: white; */
+}
+#logo-section{
+    margin-left: 2%;
+    font-size: 2rem;
+}
+html {
+    background-image: url("./images/bailey-zindel-NRQV-hBF10M-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 130%;
+    width: 100%;
+    /* background:rgba(24, 7, 0, 0.4); */
+}
+#menu-section{
+    margin-right: 4%;
+    /* background-color: yellow; */
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    text-align: center;
+    width: 50%;
+    font-size: 1.1em;
+}
+#menu-section a{
+    text-decoration: none;
+    color: black;
+    /* background-color: red; */
+    margin-right: 4%;
+    /* padding: 1%; */
+}
+#menu-section a:hover{
+    text-decoration: underline;
+}
+#body-section{
+    margin: 7% auto;
+    background:rgba(0,0, 0, 0.3);
+    width: auto;
+    align-items: center;
+    justify-content: center;
+    /* padding: 1%; */
+    width: 50%;
+    padding: 0.1% 1% 1% 1%;
+    color: white;
+    margin-bottom:15%;
+}
+#welcome {
+    /* background-color: red; */
+    /* width: 40%; */
+    margin: 7% auto;
+    font-weight: bold;
+}
+#welcome p{
+    /* color: blue; */
+    font-size: 5rem;
+    /* background-color: pink; */
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+img {
+    max-width: 90%;
+    margin-left: 7%;
+}
+#section {
+    width: 100%;
+    /* background-color: #0B1D26; */
+    background-color: #0B1D26;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: white;
+    padding-top: 3%;
+}
+#section #first-section{
+    width: 30%;
+    /* background-color: red; */
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    padding-left: 1%;
+    align-items: center;
+}
+#section #first-section p{
+    font-size: 3rem;
+    font-weight: bold;
+}
+#section #first-section div{
+    font-size: 1.1rem;
+    padding-right: 2%;
+    line-height: 1.5rem;
+}
+#section #right-section{
+    width: 30%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-right: 7%;
+}
+#section1 {
+    width: 100%;
+    /* background-color: #0B1D26; */
+    background-image: linear-gradient(to top, #0B1D26,#0B1D26,#0B1D26, transparent);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: white;
+}
+#section1 #first-section{
+    width: 30%;
+    /* background-color: red; */
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    align-items: center;
+}
+#section1 #first-section p{
+    font-size: 3rem;
+    font-weight: bold;
+}
+#section1 #first-section div{
+    font-size: 1.1rem;
+    padding-right: 2%;
+    line-height: 1.5rem;
+}
+#section1 #right-section{
+    width: 30%;
+    background-color: red;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+span {
+    color: rgb(84, 73, 13);
+}
+#footer {
+    background-color: #0B1D26;
+    color: white;
+    padding-top: 10%;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    /* align-items: center; */
+    justify-content: center;
+}
+#footer div{
+    max-width: 25%;
+    padding: 2%;
+
+}
+#foot1 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+#foot {
+    font-size: 1.4rem;
+}
